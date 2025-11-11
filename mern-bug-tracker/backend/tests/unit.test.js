@@ -1,4 +1,5 @@
-const { validateBugData } = require('../routes/bugs');
+const router = require('../routes/bugs');
+const validateBugData = router.validateBugData;
 
 describe('Unit Tests', () => {
   describe('validateBugData', () => {

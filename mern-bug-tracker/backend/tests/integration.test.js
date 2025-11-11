@@ -5,11 +5,11 @@ const Bug = require('../models/Bug');
 
 describe('Integration Tests', () => {
   beforeAll(async () => {
-    // Connect to test database
-    await mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/bug-tracker-test', {
-      useNewUrlParser: true,
-      useUnifiedTopology: true,
-    });
+    // Use a separate test database
+    const testDB = 'mongodb://localhost:27017/bug-tracker-test';
+    if (mongoose.connection.readyState === 0) {
+      await mongoose.connect(testDB);
+    }
   });
 
   afterAll(async () => {

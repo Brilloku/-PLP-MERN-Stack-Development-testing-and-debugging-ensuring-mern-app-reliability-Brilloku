@@ -15,7 +15,8 @@ const validateBugData = (data) => {
   return true;
 };
 
-module.exports.validateBugData = validateBugData;
+// Attach helper to router for testing
+router.validateBugData = validateBugData;
 
 // GET /api/bugs - Get all bugs
 router.get('/', async (req, res, next) => {
@@ -79,4 +80,4 @@ router.delete('/:id', async (req, res, next) => {
   }
 });
 
-const router = express.Rou
+module.exports = router;

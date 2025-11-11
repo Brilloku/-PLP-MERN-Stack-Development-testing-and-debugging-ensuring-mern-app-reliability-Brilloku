@@ -14,32 +14,35 @@
 - [x] Set up MongoDB connection
 - [x] Write unit tests for helper functions
 - [x] Write integration tests for API routes
+- [x] Fix test scripts and database connection issues
+- [x] Run backend tests successfully
 
 ## Frontend Development
-- [ ] Install frontend dependencies (axios, @testing-library/react, @testing-library/jest-dom)
-- [ ] Create App.js
-- [ ] Create components/BugForm.js
-- [ ] Create components/BugList.js
-- [ ] Create components/BugItem.js
-- [ ] Implement UI for CRUD operations
-- [ ] Write unit tests for components
-- [ ] Write integration tests for API calls and UI updates
+- [x] Install frontend dependencies (axios, @testing-library/react, @testing-library/jest-dom)
+- [x] Create App.js
+- [x] Create components/BugForm.js
+- [x] Create components/BugList.js
+- [x] Create components/BugItem.js
+- [x] Implement UI for CRUD operations
+- [x] Write unit tests for components
+- [x] Write integration tests for API calls and UI updates
+- [x] Implement React error boundaries
 
 ## Testing and Debugging
-- [ ] Introduce intentional bugs in code
-- [ ] Use console logs for tracking
+- [x] Introduce intentional bugs in code
+- [x] Use console logs for tracking
 - [ ] Demonstrate Chrome DevTools usage
 - [ ] Use Node.js inspector for server debugging
-- [ ] Implement React error boundaries
+- [x] Implement React error boundaries
 
 ## Error Handling
-- [ ] Implement Express error handling middleware
-- [ ] Add client-side error boundaries
+- [x] Implement Express error handling middleware
+- [x] Add client-side error boundaries
 
 ## Documentation
-- [ ] Create README.md with installation, running, testing, and debugging instructions
+- [x] Create README.md with installation, running, testing, and debugging instructions
 
 ## Final Steps
-- [ ] Run full test suite
-- [ ] Test the complete application
+- [x] Run full test suite
+- [x] Test the complete application
 - [ ] Push to GitHub repository
